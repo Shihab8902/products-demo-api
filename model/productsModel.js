@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 
 //Connect to the database
-const database_URL = process.env.database_URL;
+const database_URL = "mongodb+srv://shihab8902:shihab@cluster0.46sshii.mongodb.net/products";
 const connectDB = async()=>{
     try {
         await mongoose.connect(database_URL);
